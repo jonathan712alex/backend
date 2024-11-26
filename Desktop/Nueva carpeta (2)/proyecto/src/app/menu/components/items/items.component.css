@@ -1,0 +1,44 @@
+.centrar{
+    text-align: center;
+}
+div.contenedor{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EEE8AA;
+    margin-bottom: 1vh;
+    width: 100vw;
+}
+div.contenedor a{
+    text-decoration: none;
+    color: black;
+}
+div.contenedor p{
+    font-size: 2vw;
+    
+}
+.menu-item  .icono{
+    font-size: 9rem;
+    padding-top: 5vh;
+    color: black;
+    transition: transform 0.9s ease;
+}
+
+/*MENU ITEMS*/
+div.menu-item{
+  border: 2px solid #235B4E;
+  border-radius: 20px;
+  transition: transform 0.9s ease , box-shadow 0.5s ease ; 
+  margin: 3vh 0 3vh 0;
+  width: 23vw;
+  height: 50vh;
+}
+div.menu-item:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 5px 20px rgba(35, 91, 78, 0.5),
+    5px 0px 20px rgba(35, 91, 78, 0.5),
+    0px -5px 20px rgba(35, 91, 78, 0.5); 
+}
+div.menu-item:hover a .icono{
+    transform: scale(1.5);
+}

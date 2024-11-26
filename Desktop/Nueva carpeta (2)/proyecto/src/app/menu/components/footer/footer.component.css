@@ -1,0 +1,14 @@
+footer{
+    border-top: 1vh solid #a57f2c;
+    width: 100vw;
+}
+div.logo-footer{
+    width: 100vw;
+    height: 22vh;
+    background-color: #9F2241;
+}
+div.logo-footer .escudo{
+    width: 13vw;
+    height: auto;
+    margin: 1vh 1vw;
+}

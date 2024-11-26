@@ -1,0 +1,15 @@
+
+div.contenedor-logos{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    border-bottom: 1vh solid #a57f2c;
+    width: 100vw;
+}
+img.logo{
+    width: 15vw;
+    height: 11vh;
+    margin-bottom: 1vh;
+    margin-top: 0;
+    
+}

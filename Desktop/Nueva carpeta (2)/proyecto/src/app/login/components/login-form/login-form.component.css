@@ -1,0 +1,58 @@
+.login{
+    border: 2px solid #9F2241;
+    border-radius: 15px;
+    margin: 2vh auto 2vh auto;
+    text-align: center;
+    display: inline-block;
+}
+.login #icono-login{
+    font-size: 9rem;
+    color: black;
+    margin: 1vh 0;
+    
+}
+.login h2{
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: black;
+}
+#prueba{
+    color: black;
+}
+ #login-icon{
+    color: black ;
+    font-size: 1.5rem;
+    margin-left: 1vw;
+}
+input[type="text"]{
+    font-size: 18px;
+    margin:0 1vw 2vh 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+input[type="password"]{
+    font-size: 18px;
+    margin:0 1vw 1vh 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 2vh;
+}
+.boton{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0.5vh;
+    margin-bottom: 3vh;
+    padding: 5px 20px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    border: 2px solid black;
+}
+.boton:hover{
+    background-color: #9F2241;
+    color: white;
+    border: 2px solid black;
+}
