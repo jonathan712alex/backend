@@ -5,7 +5,7 @@ import * as fs from 'fs';
 
 @Injectable()
 export class ProjectFilesService {
-  private readonly folderPath = path.resolve('C:\\Users\\MUGF001N\\Documents\\diccionarios\\documentaciones'); // Ruta de la carpeta
+  private readonly folderPath = path.resolve('C:\\Users\\MUGF001N\\Documents\\documentaciones'); // Ruta de la carpeta
 
   getFolders(): string[] {
     const directories = fs.readdirSync(this.folderPath, { withFileTypes: true })
